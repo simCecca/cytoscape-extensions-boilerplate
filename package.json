@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/cytoscape-extensions-boilerplate.js",
-  "typings": "dist/src/cytoscape-extensions-boilerplate.d.ts",
+  "typings": "dist/cytoscape-extensions-boilerplate.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --ext .ts",
