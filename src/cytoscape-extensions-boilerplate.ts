@@ -1,4 +1,4 @@
-import Random from "./algorithm/layout";
+import YourCoreFunction from "./core/coreFunc";
 
 export * from "./interfaces";
 
@@ -8,7 +8,7 @@ export default function register(cytoscape) {
     return;
   } // can't register if cytoscape unspecified
 
-  cytoscape("layout", "random", Random); // register with cytoscape.js
+  cytoscape("core", "yourCoreFunction", YourCoreFunction); // register with cytoscape.js
 }
 
 if (typeof window.cytoscape !== "undefined") {
